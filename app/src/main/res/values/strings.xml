@@ -15,4 +15,7 @@
     <string name="date">Date</string>
     <string name="notes">Notes</string>
     <string name="buttonSave">Save</string>
+    <string name="card_image">card image</string>
+    <string name="list_item_number">List item 1</string>
+    <string name="price">$35</string>
 </resources>
