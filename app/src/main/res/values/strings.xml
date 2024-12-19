@@ -4,4 +4,6 @@
     <string name="save">Save</string>
     <string name="attach">attach</string>
     <string name="settings">Settings</string>
+    <string name="back">back</string>
+    <string name="personName">Ivan Petrov</string>
 </resources>

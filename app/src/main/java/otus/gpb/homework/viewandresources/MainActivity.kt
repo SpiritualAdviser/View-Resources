@@ -2,7 +2,6 @@ package otus.gpb.homework.viewandresources
 
 import android.content.Intent
 import android.os.Bundle
-import android.view.Menu
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
