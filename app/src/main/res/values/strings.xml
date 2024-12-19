@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">View &amp; Resources</string>
+    <string name="open">Open</string>
+    <string name="save">Save</string>
+    <string name="attach">attach</string>
+    <string name="settings">Settings</string>
 </resources>
