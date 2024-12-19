@@ -8,17 +8,14 @@
     android:orientation="horizontal">
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textFieldPersonPhone"
+        android:id="@+id/textFieldPersonCity"
         style="?attr/textInputFilledDenseStyle"
         android:layout_width="213.dp"
         android:layout_height="56.dp"
-        android:hint="@string/phone"
+        android:hint="@string/city"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        app:endIconMode="custom"
-        app:endIconDrawable="@drawable/phone"
-        >
+        tools:ignore="MissingConstraints">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
@@ -27,25 +24,25 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textFieldPersonPhoneType"
+        android:id="@+id/textFieldPersonCountry"
         style="?attr/textInputFilledDenseStyle"
         android:layout_width="160.dp"
         android:layout_height="56.dp"
-        android:hint="@string/selectPhoneType"
+        android:hint="@string/country"
         android:layout_marginStart="18.dp"
 
-        app:layout_constraintStart_toEndOf="@+id/textFieldPersonPhone"
+        app:layout_constraintStart_toEndOf="@+id/textFieldPersonCity"
         tools:layout_editor_absoluteX="16.dp"
-        tools:ignore="MissingConstraints"
-        app:endIconMode="custom"
-        app:endIconDrawable="@drawable/drop"
-        >
+        tools:ignore="MissingConstraints">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
     </com.google.android.material.textfield.TextInputLayout>
+
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
