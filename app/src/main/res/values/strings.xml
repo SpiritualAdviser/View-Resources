@@ -6,4 +6,8 @@
     <string name="settings">Settings</string>
     <string name="back">back</string>
     <string name="personName">Ivan Petrov</string>
+    <string name="nameHint">name</string>
+    <string name="phone">phone</string>
+    <string name="selectPhoneType">select</string>
+    <string name="address">address</string>
 </resources>
