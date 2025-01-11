@@ -32,4 +32,8 @@
     <string name="_175_50">$175.50</string>
     <string name="price_order">Price order</string>
     <string name="mood">mood</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="reset_my_password">Reset my password</string>
+    <string name="cancel">Cancel</string>
 </resources>
