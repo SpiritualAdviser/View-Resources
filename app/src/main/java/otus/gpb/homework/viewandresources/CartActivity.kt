@@ -30,7 +30,7 @@ class CartActivity : AppCompatActivity() {
 
     private fun createCarts(): List<CartData> {
 
-        val carts = (1..4).map {
+        val carts = (1..15).map {
             CartData(
                 headerTitle = "List item $it",
                 image = R.drawable.cart_image,
