@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="105.dp"
-    android:id="@+id/cardItem"
+    android:id="@+id/cartItem"
 >
 
     <ImageView
@@ -12,8 +12,8 @@
         android:layout_width="80.dp"
         android:layout_height="80.dp"
         android:layout_marginStart="6dp"
-        android:contentDescription="@string/card_image"
-        android:src="@drawable/card_image"
+        android:contentDescription="@string/cart_image"
+        android:src="@drawable/cart_image"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -53,7 +53,7 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/price"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -68,7 +68,7 @@
         android:paddingStart="6.dp"
         android:paddingEnd="6.dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="@+id/price"
         app:layout_constraintStart_toStartOf="@+id/imageView" />
 
 

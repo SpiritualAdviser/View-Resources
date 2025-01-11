@@ -15,7 +15,10 @@
     <string name="date">Date</string>
     <string name="notes">Notes</string>
     <string name="buttonSave">Save</string>
-    <string name="card_image">card image</string>
+    <string name="cart_image">cart image</string>
     <string name="list_item_number">List item 1</string>
     <string name="price">$35</string>
+    <string name="open_cart">open cart</string>
+    <string name="show_sign_in_dialog">show sign in dialog</string>
+    <string name="open_contacts">open contacts</string>
 </resources>
