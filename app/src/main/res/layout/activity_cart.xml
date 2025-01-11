@@ -25,6 +25,8 @@
             android:id="@+id/cartCounter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingBottom="10dp"
             android:text="@string/items_in_your_cart" />
 
         <androidx.recyclerview.widget.RecyclerView
@@ -41,9 +43,16 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/priceOrderButton"
-            android:layout_width="139.dp"
-            android:layout_height="40.dp"
+            android:contentDescription="@string/mood"
+            app:icon="@drawable/mood"
+            app:iconGravity="textStart"
+            app:iconSize="16dp"
+            app:iconPadding="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="14sp"
             android:text="@string/price_order" />
 
     </LinearLayout>

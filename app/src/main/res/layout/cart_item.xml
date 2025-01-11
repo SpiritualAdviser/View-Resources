@@ -33,6 +33,7 @@
             android:id="@+id/header_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="22sp"
             android:text="@string/list_item_number"
             tools:ignore="MissingConstraints" />
 
@@ -40,6 +41,7 @@
             android:id="@+id/category"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="14sp"
             android:text="@string/list_item_number"
             tools:ignore="MissingConstraints" />
 
@@ -47,6 +49,7 @@
             android:id="@+id/supporting"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="14sp"
             android:text="@string/list_item_number"
             tools:ignore="MissingConstraints" />
 
@@ -58,11 +61,13 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:text="@string/price"
-        app:layout_constraintStart_toEndOf="@+id/linearLayout"
+        android:textColor="?attr/colorTertiary"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/linearLayout" />
 
     <View
-        android:layout_width="0.dp"
+        android:layout_width="match_parent"
         android:layout_height="2.dp"
         android:background="@android:color/darker_gray"
         android:paddingStart="6.dp"
